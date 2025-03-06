@@ -6,19 +6,9 @@
 </head>
 
 <body>
-    <!-- Menu section start -->
-    <div class="menu text-center">
-        <div class="wrapper">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Admin</a></li>
-                <li><a href="">Category</a></li>
-                <li><a href="">Food</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- Menu section end -->
 
+    <!-- Menu section end -->
+    <?php include('partials/menu.php'); ?>
     <!-- Main content section start -->
     <div class="main-content">
         <div class="wrapper">
@@ -52,11 +42,7 @@
     <!-- Main content section end -->
 
     <!-- Footer section start -->
-    <div class="footer">
-        <div class="wrapper">
-            <p class="text-center">2020 All right reserved, Some Restorent - At Devloped By - Amit Nanda </p> 
-        </div>
-    </div>
+    <?php include('partials/footer.php'); ?>
     <!-- Footer section end -->
 </body>
 
